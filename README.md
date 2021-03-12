@@ -1,1 +1,11 @@
-# Pr-diction-des-donn-es-MNIST-avec-uniquement-100-labels
+# Prediction-des-donnees-MNIST-avec-uniquement-100-labels
+
+Dans ce projet, nous proposons des méthodes simples de formation réseau de neurones de manière semi-supervisée, notre jeu de donnée sera les données MNIST qui est une base de données de chiffres écrits à la main. C'est un jeu de données très utilisé en apprentissage automatique, ce dernier contiens une base d’apprentissage de 60000(x,y) et une base de test d’environ 10000(x,y) exemples. 
+
+L’objectif c’est de faire un réseau de neurones qui va prédire le label qui est sur l’image avec uniquement 100 labels ça veut dans notre base d’apprentissage on va avoir 59900(x) et 100(x,y) exemples ça c’est ce qu’on appelle l’apprentissage semi-supervisé qui consiste à apprendre un model avec à la fois des données qui contient de labels et des données qui non pas de labels.
+
+
+Nous nous intéressons à l’apprentissage d’un type de réseau de neurones appelé réseaux antagonistes génératifs (ou GAN pour Generative Adversarial Network). Ce type de réseau de neurones est particulièrement intéressant car il permet de générer de nouvelles données à partir d’une distribution inconnue. De plus, les GAN sont utilisés pour de nombreuses applications, principalement en image, comme la génération d’images à partir d’un texte, l’édition d’images existantes, ou la création de vidéo à partir d’images. Ils peuvent également être utilisés pour de la compression ou l’augmentation de la résolution d’images.
+
+Dans ce projet, nous proposons des méthodes simples de formation réseau de neurones de manière semi-supervisée. Ainsi, le but de cette étude est de fournir une information complète sur le GAN et ses différents modèles dans le domaine de la synthèse d'images ainsi que la méthode pseudo-étiquette. Notre principale contribution à ce travail est la comparaison critique des variantes GAN populaires pour la génération d'images sur un jeu de données MNIST y compris l'efficacité de la méthode pseudo-étiquette.
+La prédiction des données MNIST avec uniquement 100 labels car plusieurs documents ont mentionné que le pseudo-étiquetage est sensible aux prédictions initiales et que de bonnes prédictions initiales nécessitent un nombre suffisant de points étiquetés (par exemple 100 labels).
